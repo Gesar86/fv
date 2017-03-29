@@ -1,0 +1,111 @@
+body {
+  color: #222;
+  letter-spacing: 1px; }
+
+a {
+  color: #36e28a; }
+
+p {
+  color: #888; }
+
+.color_element {
+  color: #36e28a; }
+
+.color_bg {
+  background-color: #36e28a; }
+
+.color_border {
+  border-color: #36e28a; }
+
+.bg_dark {
+  background-color: #222;
+  color: white; }
+  .bg_dark .s_description:after {
+    background-color: white; }
+  .bg_dark a {
+    color: white; }
+
+.bg_light {
+  background-color: #FAFAFA; }
+
+.text-danger {
+  color: #36e28a; }
+
+body footer {
+  color: #888; }
+
+svg path {
+  fill: #d5d5d5; }
+
+.toggle_menu {
+  background-color: #000;
+  border: none; }
+
+.top_menu a {
+  color: #fff;
+  letter-spacing: 3px; }
+  .top_menu a:hover {
+    color: #36e28a;
+    background-color: rgba(255, 255, 255, 0.03); }
+
+.top_text p {
+  color: #FAFAFA;
+  letter-spacing: 3px; }
+
+.s_description {
+  letter-spacing: 4px; }
+  .s_description:after {
+    background-color: #222; }
+
+.s_about p:nth-child(even) {
+  color: #36e28a; }
+.s_about li {
+  color: #888; }
+
+.resume_container h3 {
+  color: #222;
+  letter-spacing: 1px; }
+.resume_container .resume_item .year {
+  background-color: #36e28a;
+  color: white; }
+.resume_container .resume_item .resume_description strong {
+  letter-spacing: 3px; }
+
+.s_portfolio li {
+  letter-spacing: 2px;
+  color: #888; }
+  .s_portfolio li.active {
+    color: white;
+    border-bottom: 1px dotted #36e28a; }
+.s_portfolio .portfolio_container a {
+  color: #36e28a;
+  border: 1px solid #36e28a; }
+
+.portfolio_description h3 {
+  color: white;
+  letter-spacing: 2px; }
+.portfolio_description p {
+  color: white; }
+.portfolio_description .mfp-close {
+  color: white; }
+
+.s_contacts .contacts_icon {
+  color: #36e28a; }
+.s_contacts .contact_form .form-group {
+  color: #888;
+  margin-bottom: 25px; }
+  .s_contacts .contact_form .form-group input,
+  .s_contacts .contact_form .form-group textarea {
+    border: 1px solid #999; }
+  .s_contacts .contact_form .form-group input:focus,
+  .s_contacts .contact_form .form-group textarea:focus {
+    border: 1px solid #222;
+    color: #222; }
+.s_contacts .contact_form button {
+  background-color: #36e28a;
+  color: white; }
+
+footer .social_wrapper i {
+  color: #36e28a; }
+
+/*# sourceMappingURL=green.css.map */

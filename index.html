@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Фрукт Веников</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.min.css" />
+	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="libs/linea/styles.css" />
+	<link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css" />
+	<link rel="stylesheet" href="libs/animate/animate.min.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/skins/green.css" />
+	<link rel="stylesheet" href="css/media.css" />
+</head>
+<body>
+
+	<div class="loader">
+		<div class="loader_inner"></div>
+	</div>
+
+	<header class="main_head bg_dark" data-parallax="scroll" data-image-src="img/bg.jpg" data-z-index="1" data-position="top center">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="logo_container">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 294.64875 290.04303" version="1.1" id="svg2">
+						  <path
+     style="fill:#f9f9f9"
+     d="m 129.36932,289.41489 c -14.79022,-1.31085 -26.4304,-4.99566 -44.669806,-14.14062 -28.8412,-14.46056 -42.46687,-27.48421 -54.96545,-52.53691 -3.10322,-6.22023 -8.46109,-16.73809 -11.90637,-23.37301 C 11.316394,186.82489 9.8202438,182.55122 3.5742433,158.65008 0.08471331,145.29692 -0.76916665,134.24494 0.66163331,120.95167 1.9766133,108.73445 3.4302633,102.55049 7.6572333,91.191786 15.321834,70.59552 23.940804,56.614737 37.560554,42.685787 c 10.79823,-11.043372 19.53051,-17.050131 35.15898,-24.18516 6.22024,-2.83979 14.70238,-6.791143 18.84921,-8.7807858 11.699666,-5.6134936 21.437216,-7.4435656 48.613096,-9.13632757 22.47953,-1.400231 29.32379,-0.578834 48.13752,5.77710957 8.68821,2.935186 17.02382,6.2804878 20.11444,8.0724578 2.90277,1.68306 10.02777,5.673706 15.83333,8.868106 23.91213,13.157208 35.82074,23.705824 46.2289,40.949483 8.21255,13.606082 15.95258,29.554792 19.22948,39.62331 4.5467,13.97003 5.18762,20.53421 4.84522,49.62293 l -0.30029,25.5103 -2.39381,8.67064 c -2.80682,10.16658 -11.72368,28.87201 -18.98942,39.83523 -7.99326,12.06096 -18.65813,21.54115 -35.80263,31.8256 -4.97618,2.98507 -11.7619,7.21496 -15.07936,9.39978 -7.23198,4.76284 -12.8336,7.6166 -23.6313,12.03904 -13.70696,5.61399 -20.33128,6.8709 -45.73377,8.6776 -11.14751,0.79285 -13.92568,0.78805 -23.27083,-0.0402 z m 21.00893,-16.92231 c 5.80555,-0.61683 12.25198,-1.12649 14.32539,-1.13259 8.21201,-0.0241 42.35048,-14.20101 52.02583,-21.605 2.0723,-1.58582 7.33032,-5.04195 11.68448,-7.68031 9.47325,-5.7402 15.01289,-10.317 18.23836,-15.06836 1.3124,-1.93325 4.16593,-5.21142 6.34119,-7.28483 5.09558,-4.857 11.84895,-15.01812 13.09918,-19.70904 0.53709,-2.01518 2.09662,-7.7354 3.46562,-12.71159 2.88221,-10.47655 3.82831,-17.41382 4.93564,-36.19046 0.88867,-15.06915 0.55341,-24.32364 -1.18818,-32.79761 -2.06181,-10.03212 -8.1503,-31.335414 -10.02002,-35.059526 -2.27817,-4.537667 -12.26804,-17.473147 -17.39196,-22.520175 -4.66887,-4.598786 -5.31242,-5.006921 -5.74514,-3.643522 -0.26802,0.844463 -1.16783,2.400521 -1.99957,3.457907 -2.27135,2.887557 -10.28647,18.776334 -11.2193,22.240584 -0.44899,1.667408 -2.54052,6.864917 -4.64783,11.550016 -6.97737,15.512396 -8.23268,20.198036 -11.97778,44.708836 -2.26495,14.8236 -4.77859,24.46579 -8.23212,31.57805 -1.63454,3.3662 -3.40031,7.28943 -3.92392,8.71831 -0.52363,1.42887 -1.89392,3.67068 -3.04509,4.98179 -2.77547,3.16109 -6.23193,9.8245 -7.67997,14.80559 -1.8188,6.25646 -7.25144,10.74856 -12.73901,10.53353 -7.05604,-0.27648 -10.19704,-5.11164 -9.33637,-14.37211 0.32824,-3.53179 0.15865,-6.10538 -0.5333,-8.09286 -0.55803,-1.60282 -1.23946,-7.46477 -1.51428,-13.02656 -0.27483,-5.56179 -0.79669,-10.48143 -1.15969,-10.93254 -0.36301,-0.4511 -0.83274,-2.17734 -1.04386,-3.83607 -0.46519,-3.65513 -3.84583,-15.09154 -4.848,-16.40043 -1.21899,-1.59206 -2.64382,-9.61914 -2.16268,-12.18386 0.36641,-1.95312 0.0932,-2.7676 -1.39853,-4.16898 -1.01963,-0.9579 -2.08368,-2.80171 -2.36453,-4.09735 -0.28085,-1.29564 -1.11382,-3.54321 -1.85104,-4.9946 -0.73721,-1.45139 -1.85889,-3.87392 -2.49262,-5.3834 -0.63373,-1.50948 -3.1469,-4.90234 -5.58483,-7.53968 -8.34405,-9.026566 -9.1903,-11.49 -6.12346,-17.825247 3.05923,-6.319535 9.34176,-7.909872 16.69793,-4.226836 7.23243,3.621075 10.93998,10.229296 11.58561,20.649763 0.40162,6.48217 2.09699,12.97025 5.2553,20.11176 0.95187,2.15235 2.27647,7.07467 2.94356,10.9385 0.66708,3.86382 1.86265,9.56977 2.65682,12.67989 0.79417,3.11012 1.97032,9.2041 2.61366,13.54217 1.19743,8.07437 1.8782,9.37184 4.51323,8.60176 2.46043,-0.71905 3.0781,-1.73745 6.79104,-11.19677 1.95009,-4.96815 4.01897,-9.70883 4.59752,-10.53483 0.57856,-0.826 1.05192,-2.16346 1.05192,-2.97213 0,-0.80867 1.92195,-6.41621 4.27101,-12.4612 2.34906,-6.04499 4.56854,-12.68732 4.9322,-14.76074 0.36365,-2.07341 0.85196,-4.8566 1.08512,-6.18486 0.23764,-1.35377 1.18902,-2.91633 2.16498,-3.5558 0.95758,-0.62743 1.97195,-2.19206 2.25416,-3.47696 0.91193,-4.152002 13.5361,-27.820963 15.47922,-29.021876 0.3993,-0.246781 0.726,-1.409475 0.726,-2.583766 0,-1.17429 0.67112,-3.614088 1.49138,-5.421773 0.82026,-1.807686 1.49883,-4.017993 1.50794,-4.911793 0.0148,-1.448561 3.03513,-5.824882 6.55163,-9.49289 0.69411,-0.724018 1.11929,-1.452733 0.94482,-1.619366 -0.17446,-0.166633 -3.03148,-1.638037 -6.34894,-3.269786 -3.31746,-1.631749 -12.30853,-6.181366 -19.98016,-10.110261 -20.35802,-10.426022 -36.31708,-15.694848 -47.60519,-15.716689 -3.16798,-0.0061 -8.59235,-0.548438 -12.05415,-1.20513 -4.54933,-0.862994 -9.53647,-1.122753 -17.99003,-0.937028 l -11.69585,0.256958 -5.80604,3.010441 c -5.57861,2.89252 -7.0426,4.141392 -4.85473,4.141392 0.56415,0 2.22297,0.812464 3.68625,1.805477 1.46329,0.993011 5.15674,2.373227 8.20767,3.067146 3.05092,0.693919 6.05729,1.707395 6.68081,2.252168 0.62351,0.544775 1.98187,1.245289 3.01858,1.556701 1.69038,0.507768 4.61058,2.664985 9.61309,7.101425 1.21657,1.078906 1.69643,2.343073 1.69643,4.469173 0,2.469482 -0.46141,3.369829 -2.76224,5.389985 -2.7143,2.383188 -2.85495,2.416443 -8.10516,1.916312 -2.9386,-0.279929 -7.37863,-1.031962 -9.86673,-1.671183 -8.38976,-2.155431 -13.88519,-0.589142 -25.431636,7.24844 -7.67351,5.20868 -9.80265,7.707805 -13.38407,15.70986 -2.79914,6.254181 -3.11343,7.53993 -2.94883,12.063489 0.10132,2.784766 -0.36576,7.777498 -1.03796,11.094962 -0.6722,3.317462 -1.36063,9.548342 -1.52983,13.846402 -0.28629,7.27211 -0.18883,7.95262 1.40359,9.80159 1.7006,1.97457 1.78078,1.98729 12.89539,2.04689 6.32946,0.0339 12.984156,0.4858 15.330976,1.04101 2.28075,0.53958 6.08027,1.202 8.44337,1.47204 4.73578,0.54117 4.74063,0.54362 5.41071,2.73108 0.35272,1.15145 -0.0472,1.83613 -1.60277,2.74412 -1.71734,1.00241 -5.30475,1.25275 -20.921946,1.46 -20.52435,0.27236 -21.48809,0.47388 -21.48809,4.49297 0,1.5327 -0.92841,2.89819 -3.52382,5.18276 l -3.52382,3.1018 0.95227,13.36109 c 0.52374,7.3486 1.25366,20.65573 1.62202,29.5714 0.89656,21.69939 1.59588,27.37471 3.99496,32.42063 2.3755,4.99633 2.49559,8.45863 0.45353,13.07505 -1.77266,4.00738 -3.42511,5.24443 -5.51292,4.12706 -1.98635,-1.06306 -1.18697,0.16444 3.94185,6.05291 5.10577,5.86202 16.2675,13.77026 24.06288,17.0489 3.193766,1.34325 8.860426,3.82778 12.592566,5.52115 12.28857,5.57567 20.09808,6.41741 39.96031,4.30713 z M 61.510214,216.98895 c 0.95453,-1.06965 0.95173,-2.73916 -0.0222,-13.19444 -0.61323,-6.58341 -1.32089,-16.56844 -1.57258,-22.18896 -0.25169,-5.62052 -0.96129,-12.23659 -1.5769,-14.70238 -0.6156,-2.46579 -1.45535,-7.87611 -1.86611,-12.02293 -0.41076,-4.14683 -1.09207,-10.93254 -1.51402,-15.07936 -0.7633,-7.50162 -1.09688,-14.96774 -1.9538,-43.730152 -0.37585,-12.615642 -0.24659,-15.84727 0.79115,-19.779364 0.68222,-2.584995 1.03021,-5.537428 0.77332,-6.560962 -0.25689,-1.023534 0.0444,-3.488893 0.66961,-5.478575 0.62517,-1.989684 1.35776,-4.609891 1.62798,-5.822685 0.44734,-2.007752 0.37701,-2.110224 -0.78589,-1.145101 -0.70246,0.582987 -3.22396,3.617354 -5.60334,6.743037 -2.37938,3.125682 -4.91038,6.167934 -5.62445,6.76056 -3.9562,3.28335 -16.10086,32.711882 -17.66804,42.812602 -0.45752,2.94879 -1.18055,6.27857 -1.60673,7.39951 -0.5016,1.3193 -0.6,7.78599 -0.27901,18.33626 0.47042,15.4618 0.62216,16.72381 2.957,24.59184 2.70398,9.11196 8.3956,24.8822 10.47639,29.02777 0.7285,1.45139 5.45036,8.79659 10.49302,16.32267 l 9.16849,13.68379 1.01163,-2.37426 c 0.5564,-1.30585 1.50339,-2.92534 2.10444,-3.59887 z M 74.764834,45.073022 c 2.83364,-1.575385 12.00801,-7.93343 14.542,-10.077937 3.47853,-2.94387 -11.44494,4.188429 -17.63606,8.428711 l -4.98298,3.412832 3.1157,-0.368755 c 1.71363,-0.202814 3.94623,-0.830498 4.96134,-1.394851 z"
+     id="path4159"
+     inkscape:connector-curvature="0" />
+						</svg>
+					</div>
+					<button class="toggle_menu">
+						<span class="sandwich">
+							<span class="sw-topper"></span>
+							<span class="sw-bottom"></span>
+							<span class="sw-footer"></span>
+						</span>
+					</button>
+					<nav class="top_menu">
+						<ul>
+							<li><a href="#about">Обо мне</a></li>
+							<li><a href="#resume">Резюме</a></li>
+							<li><a href="#portfolio">Портфолио</a></li>
+							<li><a href="#contacts">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div class="top_wrapper">
+			<div class="top_description">
+				<div class="top_centered">
+					<div class="top_text">
+						<h1>Фрукт Веников</h1>
+						<p>Веб-дизайнер, Frond-End разработчик</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section id="about" class="s_about bg_light">
+		<div class="section_header">
+			<h2>Обо мне</h2>
+			<div class="s_description_wrapper">
+				<div class="s_description">Познакомимся ближе</div>
+			</div>
+		</div>
+		<div class="section_content">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-md-push-4 animation_1">
+						<h3>Фото</h3>
+						<div class="person">
+							<img src="img/photo.png" alt="Frukt Venikov">
+						</div>
+					</div>
+					<div class="col-md-4 col-md-pull-4 animation_2">
+						<h3>Немного о себе</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet nulla nisi. Sed at nisl non nunc dignissim ultricies. Cras lobortis neque id lacinia pellentesque.</p>
+						<p>Donec fringilla, arcu a porttitor interdum, nibh sapien facilisis tellus, nec tincidunt quam ligula vel eros. Phasellus eget enim sagittis, elementum dui sed, lobortis leo. Nam dignissim ultricies auctor. Donec hendrerit sem massa, nec posuere purus semper vitae. Cras in maximus felis, vitae molestie risus.</p>
+					</div>
+					<div class="col-md-4 animation_3">
+						<h3>Профессиональные навыки</h3>
+						<ul>
+							<li>Профессиональное создание сайтов</li>
+							<li>Разработка дизайна</li>
+							<li>HTML5/CSS3/Bootstrap верстка</li>
+							<li>Посадка на CMS Wordpress, Drupal</li>
+						</ul>
+						<h3>Персональная информация</h3>
+						<ul>
+							<li>Фрукт Веников</li>
+							<li>4 мая 1986 года рождения</li>
+							<li>Инженер, веб-разработчик</li>
+							<li>Тел: +38 099 082 70 30</li>
+							<li>E-mail: <a href="mailto:gesar@list.ru">gesar@list.ru</a></li>
+						</ul>
+						<div class="social_wrapper">
+							<ul>
+								<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#" target="_blank"><i class="fa fa-vk"></i></a></li>
+								<li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="resume" class="s_resume">
+		<div class="section_header">
+			<h2>Резюме</h2>
+			<div class="s_description_wrapper">
+				<div class="s_description">Мои знания и достижения</div>
+			</div>
+		</div>
+		<div class="section_content">
+			<div class="container">
+				<div class="row">
+					<div class="resume_container">
+						<div class="col-md-6 col-sm-6 left">
+							<h3>Работа</h3>
+							<div class="resume_icon"><i class="icon-basic-case"></i></div>
+							<div class="resume_item">
+								<div class="year">С 2008 по настоящее время</div>
+								<div class="resume_description">ООО "Пронькина забава"<strong>Программист</strong></div>
+								<p>Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя.</p>
+							</div>
+							<div class="resume_item">
+								<div class="year">С 2008 по настоящее время</div>
+								<div class="resume_description">ООО "Пронькина забава"<strong>Программист</strong></div>
+								<p>Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя.</p>
+							</div>
+							<div class="resume_item">
+								<div class="year">С 2008 по настоящее время</div>
+								<div class="resume_description">ООО "Пронькина забава"<strong>Программист</strong></div>
+								<p>Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя.</p>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6 right">
+							<h3>Учеба</h3>
+							<div class="resume_icon"><i class="icon-basic-book-pen"></i></div>
+							<div class="resume_item">
+								<div class="year">С 2008 по настоящее время</div>
+								<div class="resume_description"><strong>Программист</strong>ООО "Пронькина забава"</div>
+								<p>Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя.</p>
+							</div><div class="resume_item">
+								<div class="year">С 2008 по настоящее время</div>
+								<div class="resume_description">ООО "Пронькина забава"<strong>Программист</strong></div>
+								<p>Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя.</p>
+							</div><div class="resume_item">
+								<div class="year">С 2008 по настоящее время</div>
+								<div class="resume_description">ООО "Пронькина забава"<strong>Программист</strong></div>
+								<p>Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="portfolio" class="s_portfolio bg_dark">
+		<div class="section_header">
+			<h2>Портфолио</h2>
+			<div class="s_description_wrapper">
+				<div class="s_description">Мои работы</div>
+			</div>	
+		</div>
+		<div class="section_content">
+			<div class="container">
+				<div class="row">
+					<div class="filter_div controls">
+						<ul>
+							<li class="filter active" data-filter="all">Все работы</li>
+							<li class="filter" data-filter=".category_1">Сайты</li>
+							<li class="filter" data-filter=".category_2">Айдентика</li>
+							<li class="filter" data-filter=".category_3">Логотипы</li>
+						</ul>
+					</div>
+					<div id="portfolio_grid">
+						<div class="mix col-md-3 col-sm-6 col-xs-6 portfolio_item category_1">
+							<img src="img/portfolio-images/1.jpg" alt="Portfolio">
+							<div class="portfolio_container">
+								<h3>Заголовок работы</h3>
+								<p>Описание работы</p>
+								<a href="#work_1" class="popup_content">Посмотреть</a>
+							</div>
+							<div class="hidden">
+								<div class="portfolio_description" id="work_1">
+									<img src="img/portfolio-images/1.jpg" alt="Portfolio">
+									<h3>Заголовок работы</h3>
+									<p>Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.</p>
+								</div>
+							</div>
+						</div>				
+						<div class="mix col-md-3 col-sm-6 col-xs-6 portfolio_item category_2">
+							<img src="img/portfolio-images/2.jpg" alt="Portfolio">
+							<div class="portfolio_container">
+								<h3>Заголовок работы</h3>
+								<p>Описание работы</p>
+								<a href="#work_1">Посмотреть</a>
+							</div>
+						</div>
+						<div class="mix col-md-3 col-sm-6 col-xs-6 portfolio_item category_1">
+							<img src="img/portfolio-images/3.jpg" alt="Portfolio">
+							<div class="portfolio_container">
+								<h3>Заголовок работы</h3>
+								<p>Описание работы</p>
+								<a href="#work_1">Посмотреть</a>
+							</div>
+						</div>
+						<div class="mix col-md-3 col-sm-6 col-xs-6 portfolio_item category_3">
+							<img src="img/portfolio-images/4.jpg" alt="Portfolio">
+							<div class="portfolio_container">
+								<h3>Заголовок работы</h3>
+								<p>Описание работы</p>
+								<a href="#work_1">Посмотреть</a>
+							</div>
+						</div>
+						<div class="mix col-md-3 col-sm-6 col-xs-6 portfolio_item category_2">
+							<img src="img/portfolio-images/5.jpg" alt="Portfolio">
+							<div class="portfolio_container">
+								<h3>Заголовок работы</h3>
+								<p>Описание работы</p>
+								<a href="#work_1">Посмотреть</a>
+							</div>
+						</div>
+						<div class="mix col-md-3 col-sm-6 col-xs-6 portfolio_item category_1">
+							<img src="img/portfolio-images/6.jpg" alt="Portfolio">
+							<div class="portfolio_container">
+								<h3>Заголовок работы</h3>
+								<p>Описание работы</p>
+								<a href="#work_1">Посмотреть</a>
+							</div>
+						</div>
+						<div class="mix col-md-3 col-sm-6 col-xs-6 portfolio_item category_2">
+							<img src="img/portfolio-images/1.jpg" alt="Portfolio">
+							<div class="portfolio_container">
+								<h3>Заголовок работы</h3>
+								<p>Описание работы</p>
+								<a href="#work_1">Посмотреть</a>
+							</div>
+						</div>
+						<div class="mix col-md-3 col-sm-6 col-xs-6 portfolio_item category_3">
+							<img src="img/portfolio-images/2.jpg" alt="Portfolio">
+							<div class="portfolio_container">
+								<h3>Заголовок работы</h3>
+								<p>Описание работы</p>
+								<a href="#work_1">Посмотреть</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="contacts" class="s_contacts bg_light">
+		<div class="section_header">
+			<h2>Контакты</h2>
+			<div class="s_description_wrapper">
+				<div class="s_description">Связаться со мной</div>
+			</div>
+		</div>
+		<div class="section_content">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6">
+						<div class="contact_wrapper">
+							<div class="contacts_icon icon-basic-geolocalize-05"></div>
+							<h3>Адрес:</h3>
+							<p>Aldus PageMaker, 23</p>
+						</div>
+						<div class="contact_wrapper">
+							<div class="contacts_icon icon-basic-smartphone"></div>
+							<h3>Телефон:</h3>
+							<p>+38 099 999 99 99</p>
+						</div>
+						<div class="contact_wrapper">
+							<div class="contacts_icon icon-basic-webpage-img-txt"></div>
+							<h3>Сайт:</h3>
+							<p>www.webmaster.ua</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<form action="https://formspree.io/gesar@list.ru" target="_blanc" method="POST" class="contact_form" novalidate>
+							<label class="form-group">
+								<span class="color_element">*</span>Ваше имя:
+								<input type="text" name="name" placeholder="Ваше имя" data-validation-required-message="Введите имя" required />
+								<span class="help-block text-danger"></span>
+							</label>
+							<label class="form-group">
+								<span class="color_element">*</span>Ваш e-mail:
+								<input type="text" name="email" placeholder="Ваш e-mail" data-validation-required-message="Введите e-mail" required />
+								<span class="help-block text-danger"></span>
+							</label>
+							<label class="form-group">
+								<span class="color_element">*</span>Ваше сообщение:
+								<textarea name="message" placeholder="Ваше сообщение" data-validation-required-message="Введите сообщение" required ></textarea>
+								<span class="help-block text-danger"></span>
+							</label>
+							<button>Отправить</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="bg_dark">
+		<div class="container">
+			<div class="col-md-12">
+				<p class="copyright">&copy; 2016 Фрукт Веников</p>
+				<div class="social_wrapper">
+					<ul>
+						<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-vk"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<div class="hidden"></div>
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	
+	<script src="libs/jquery/jquery-2.1.3.min.js"></script>
+	<script src="libs/parallax/parallax.min.js"></script>
+	<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
+	<script src="libs/mixitup/mixitup.min.js"></script>
+	<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+	<script src="libs/waypoints/waypoints.min.js"></script>
+	<script src="libs/sliphover/jquery.sliphover.min.js"></script>
+	<script src="libs/animate/animate-css.js"></script>
+	<script src="libs/jqBootstrapValidation/jqBootstrapValidation.js"></script>
+	<script src="js/common.js"></script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
